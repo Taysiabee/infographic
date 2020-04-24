@@ -63,6 +63,11 @@ body {
 .wrapper {
   margin: 30px;
 }
+.wrapper .small-ekg-svg {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 .wrapper header .healthcare-banner {
   width: 40%;
   display: block;
@@ -123,13 +128,6 @@ body {
   -webkit-transform: translateX(1000px);
       -ms-transform: translateX(1000px);
           transform: translateX(1000px);
-}
-.wrapper .ekg-animation .small-ekg-svg {
-  width: 100%;
-  margin-top: 5%;
-}
-.wrapper .small-ekg-svg {
-  margin-top: 5%;
 }
 .wrapper .the-numbers {
   position: relative;
@@ -314,5 +312,10 @@ body {
 .wrapper .three-reasons .admin .gdp, .wrapper .three-reasons .treatments .gdp, .wrapper .three-reasons .top-selling .gdp {
   line-height: 25px;
   margin-top: 5%;
+}
+.wrapper .most-expensive p {
+  color: #042A2B;
+  font-size: 3.5vw;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */

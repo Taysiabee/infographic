@@ -10,6 +10,11 @@ body {
 }
 .wrapper{
 	margin: 30px;
+	.small-ekg-svg{
+			width: 100%;
+			margin-top: 10%;
+			margin-bottom: 10%;
+		}
 	header{
 		.healthcare-banner{
 			width: 40%;
@@ -27,7 +32,6 @@ body {
 			font-family: 'ubuntu';
 		}
 	}
-
 	.hospital{
 		display: flex;
 		flex-direction: row;
@@ -78,15 +82,12 @@ body {
 			}
 		} 
 
-		.small-ekg-svg{
-			width: 100%;
-			margin-top: 5%;
-		}
+		// .small-ekg-svg{
+		// 	width: 100%;
+		// 	margin-top: 5%;
+		// }
 	}
 
-	.small-ekg-svg{
-		margin-top: 5%;
-	}
 
 	.the-numbers{
 		position: relative;
@@ -295,4 +296,30 @@ body {
 			}
 		}
 	}
-}  
+
+	.most-expensive{
+		p{
+			color: #042A2B;
+			font-size: 3.5vw;
+			font-weight: bold;
+		}
+	}
+
+} //wrapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
