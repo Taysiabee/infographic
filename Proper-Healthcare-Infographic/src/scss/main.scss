@@ -1,0 +1,298 @@
+
+@import 'reset';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+.wrapper{
+	margin: 30px;
+	header{
+		.healthcare-banner{
+			width: 40%;
+			display: block;
+			margin: 0 auto;
+			margin-top: 2%;
+		}
+
+		p{
+			color: #042A2B;
+			text-align: center;
+			font-size: 2vw;
+			margin-top: 1%;
+			line-height: 100%;
+			font-family: 'ubuntu';
+		}
+	}
+
+	.hospital{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		.hospital-svg{
+			width: 30%;
+			display: block;
+			margin: 0 auto;
+			margin-top: 2%;
+		}
+		.donkey-svg{
+			width: 10%;
+			position: absolute;
+			left: 10%;
+			bottom: 0;
+		}
+		.elephant-svg{
+			width: 10%;
+			position: absolute;
+			right: 10%;
+			bottom: 0;
+		}
+	}
+
+	.party-lines{
+		p{
+			color: #042A2B;
+			text-align: center;
+			font-size: 2.5vw;
+			margin-top: 3%;
+			font-family: 'ubuntu';
+		} 
+	}
+
+	.ekg-animation{
+		position: relative;
+		.ekg-box{
+			height: 105px;
+			width: 100%;
+			background-color: white;
+			position: absolute;
+			top: 75px;
+			transition: all 3s linear;
+			margin-top: -25px;
+
+			&:hover{
+				transform: translateX(1000px);
+			}
+		} 
+
+		.small-ekg-svg{
+			width: 100%;
+			margin-top: 5%;
+		}
+	}
+
+	.small-ekg-svg{
+		margin-top: 5%;
+	}
+
+	.the-numbers{
+		position: relative;
+		top: 20px;
+
+		.pills{
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			left: 34%;
+			top: 10px;
+			.pill-svg-img{
+				width: 2vw;
+				margin-top: 29px;
+			}
+		}
+
+		.clipboard-svg{
+			width: 20%;
+			margin-top: 5%;
+			display: block;
+			margin: 0 auto;
+		}
+
+		.pills-two{
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			right: 34%;
+			top: 10px;
+			.pill-svg-img{
+				width: 1.9vw;
+				margin-top: 29px;
+			}
+		}
+		
+		.words-on-clipboard{
+			
+		}
+
+	} //end numbers	
+
+	.ekg-animation-two{
+		.small-ekg-svg{
+			margin-top: 60px;
+		}
+	}
+
+	.america-spends{
+		p{
+			font-size: 2vw;
+			text-align: center;
+			margin-top: 10px;
+			font-family: 'ubuntu';
+			color: #042A2B;
+			line-height: 30px;
+		}
+		.spending, .per-person{
+			font-size: 2.5vw;
+			color: #042A2B;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-bottom: 1%;
+		}
+
+		.countries{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			position: relative;
+			left: 10px;
+
+			.money-svg{
+				position: absolute;
+				width: 31%;
+				top: 83px;
+				left: -17px;
+			}
+			.money-two-svg{
+				position: absolute;
+				width: 31%;
+				top: 100px;
+				left: -26px;
+			}
+			.uk-svg{
+				width: 12%;
+				margin-top: 2%;
+				margin-left: 13%;
+			}
+			.times{
+				color: #D94728;
+				font-weight: bold;
+				margin-top: 2%;
+				font-family: 'ubuntu';
+				font-size: 6vw;
+				position: absolute;
+				left: 41%;
+				top: 15%;
+			}
+			
+			.money-five-svg{
+				position: absolute;
+				width: 35%;
+				top: 63px;
+				right: 16px;
+			}
+			.money-six-svg{
+				position: absolute;
+				width: 35%;
+				bottom: 64px;
+				right: 6px;
+			}
+			.money-seven-svg{
+				position: absolute;
+				width: 35%;
+				bottom: 47px;
+				right: 9px;
+			}
+			.money-eight-svg{
+				position: absolute;
+				width: 35%;
+				bottom: 30px;
+				right: 0px;
+			}
+			.us-svg{
+				width: 20%;
+				margin-top: 0%;
+				margin-right: 10%;
+			}
+		}
+		
+		.despite{
+			color: #042A2B;
+		}
+	}
+
+	.three-reasons{
+		.three{
+			color: #042A2B;
+			font-size: 3.5vw;
+			text-transform: uppercase;
+			text-align: center;
+			font-family: 'ubuntu';
+			font-weight: bold;
+			margin-top: 3%;
+		}
+		.expensive{
+			color: #042A2B;
+			font-size: 2.5vw;
+			text-align: center;
+			font-family: 'ubuntu';
+			margin-top: 2%;
+			margin-bottom: 5%;
+		}
+
+		.admin, .treatments, .top-selling{
+			background-color: white;
+			padding: 40px;
+			border-radius: 50px;
+			width: 45%;
+			margin: auto;
+			margin-top: 40px;
+			.step{
+				background: #042A2B;
+				border-radius: 70px;
+				color: #ffffff;
+				display: inline-block;
+				font-weight: bold;
+				line-height: 3.6em;
+				width: 3.6em;
+				margin-left: 40%;
+				margin-bottom: 3%;
+			}
+			.costs{
+				color: #042A2B;
+				font-weight: bold;
+				font-size: 2vw;
+				text-transform: uppercase;
+				font-family: 'ubuntu';
+			}
+			p, .gdp, .wealthy, .average{
+				color: #042A2B;
+				font-size: 1.5vw;
+				margin-top: 1.5%;
+				text-align: center;
+				font-family: 'ubuntu';
+				line-height: 35px;
+			}
+			.eight, .three{
+				color: #D94728;
+				font-weight: bold;
+				font-size: 5vw;
+				font-family: 'ubuntu';
+				margin-top: 4%;
+			}
+			hr{
+				border: 3px solid #042A2B;
+				border-radius: 5px;
+				width: 20%;
+				margin-top: 10px;			
+			}
+
+			.gdp{
+				line-height: 25px;
+				margin-top: 5%;
+			}
+		}
+	}
+}  
