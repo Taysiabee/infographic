@@ -313,9 +313,42 @@ body {
   line-height: 25px;
   margin-top: 5%;
 }
-.wrapper .most-expensive p {
+.wrapper .most-expensive .expensive {
   color: #042A2B;
   font-size: 3.5vw;
   font-weight: bold;
+  text-transform: uppercase;
+  font-family: "ubuntu";
+  text-align: center;
+}
+.wrapper .most-expensive .bottle-stuff {
+  margin-bottom: 5%;
+  position: relative;
+}
+.wrapper .most-expensive .bottle-stuff .pill-bottle {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.wrapper .most-expensive .bottle-stuff .bottle-banner {
+  width: 40%;
+  position: absolute;
+  bottom: 21%;
+  left: 29%;
+}
+.wrapper .most-expensive .bottle-stuff .price {
+  position: absolute;
+  color: #D94728;
+  bottom: 31%;
+  left: 43%;
+  font-family: "ubuntu";
+  font-size: 3.5vw;
+}
+.wrapper .most-expensive .leptin {
+  color: #042A2B;
+  font-family: "ubuntu";
+  text-align: center;
+  font-size: 3vw;
 }
 /*# sourceMappingURL=main.css.map */

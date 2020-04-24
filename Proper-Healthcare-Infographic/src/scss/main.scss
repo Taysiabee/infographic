@@ -298,13 +298,46 @@ body {
 	}
 
 	.most-expensive{
-		p{
+		.expensive{
 			color: #042A2B;
 			font-size: 3.5vw;
 			font-weight: bold;
+			text-transform: uppercase;
+			font-family: 'ubuntu';
+			text-align: center;
+		}
+
+		.bottle-stuff{
+			margin-bottom: 5%;
+			position: relative;
+			.pill-bottle{
+				width: 20%;
+				display: block;
+				margin: 0 auto;
+				margin-top: 10%;
+			}
+			.bottle-banner{
+				width: 40%;
+				position: absolute;
+				bottom: 21%;
+				left: 29%;
+			}
+			.price{
+				position: absolute;
+				color: #D94728;
+				bottom: 31%;
+				left: 43%;
+				font-family: "ubuntu";
+				font-size: 3.5vw;
+			}
+		}
+		.leptin{
+			color: #042A2B;
+			font-family: "ubuntu";
+			text-align: center;
+			font-size: 3vw;
 		}
 	}
-
 } //wrapper
 
 
