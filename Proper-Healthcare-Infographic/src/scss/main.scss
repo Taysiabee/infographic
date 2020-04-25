@@ -26,7 +26,7 @@ body {
 		p{
 			color: #042A2B;
 			text-align: center;
-			font-size: 2vw;
+			font-size: 4vw;
 			margin-top: 1%;
 			line-height: 100%;
 			font-family: 'ubuntu';
@@ -60,7 +60,7 @@ body {
 		p{
 			color: #042A2B;
 			text-align: center;
-			font-size: 2.5vw;
+			font-size: 4vw;
 			margin-top: 3%;
 			font-family: 'ubuntu';
 		} 
@@ -138,7 +138,7 @@ body {
 
 	.america-spends{
 		p{
-			font-size: 2vw;
+			font-size: 3vw;
 			text-align: center;
 			margin-top: 10px;
 			font-family: 'ubuntu';
@@ -146,7 +146,7 @@ body {
 			line-height: 30px;
 		}
 		.spending, .per-person{
-			font-size: 2.5vw;
+			font-size: 3vw;
 			color: #042A2B;
 			text-transform: uppercase;
 			font-weight: bold;
@@ -300,7 +300,7 @@ body {
 	.most-expensive{
 		.expensive{
 			color: #042A2B;
-			font-size: 3.5vw;
+			font-size: 4vw;
 			font-weight: bold;
 			text-transform: uppercase;
 			font-family: 'ubuntu';
@@ -337,7 +337,117 @@ body {
 			text-align: center;
 			font-size: 3vw;
 		}
+
+		.none{
+			color: #D94728;
+			text-transform: uppercase;
+			font-size: 2vw;
+			text-align: center;
+			margin-top: 2%;
+			font-weight: bold;
+		}
 	}
+	.delinquent{
+		position: relative;
+		.meter-img{
+			margin-bottom: 5%;
+			.meter-arc{
+				width: 50%;
+				display: block;
+				margin: 0 auto;	
+			}
+			.pin-meter{
+				width: 6%;
+				position: absolute;
+				left: 47%;
+				top: 5%;
+			}
+		}	
+		span{
+			color: #D94728;
+			margin-left: 44%;
+			font-size: 7vw;
+			font-weight: bold;
+			font-family: "ubuntu";
+		}
+		.households{
+			color: #042A2B;
+			text-align: center;
+			font-size: 2.5vw;
+			font-family: ubuntu;
+			text-transform: uppercase;
+			margin-top: 3%;
+			span{
+				color: black;
+				font-size: 4vw;
+				margin-left: 5%;
+			}
+		}
+	}
+	
+	.graph-section{
+		position: relative;
+		.graph-img{
+			width: 65%;
+			display: block;
+			margin: 0 auto;
+		}
+		.red-line{
+			width: 40%;
+			position: absolute;
+			bottom: 50%;
+			left: 27%;
+		}
+		p{
+			color: #042A2B;
+			text-align: center;
+			font-size: 2vw;
+			font-family: ubuntu;
+		}
+		span{
+			color: #D94728;
+			font-size: 5vw;
+			font-family: ubuntu;
+		}
+	}
+
+	.change{
+		h2{
+			color: #042A2B;
+			font-size: 4vw;
+			font-weight: bold;
+			text-transform: uppercase;
+			font-family: "ubuntu";
+			text-align: center;
+		}
+		p{
+			color: #042A2B;
+			text-align: center;
+			font-size: 2vw;
+			font-family: ubuntu;
+			margin-top: 3%;
+		}
+		.link{
+			position: relative;
+			.bandaid{
+				width: 35%;
+				display: block;
+				margin: 0 auto;
+				margin-top: 5%;
+			}
+			span{
+				position: absolute;
+				font-size: 2.5vw;
+				text-transform: uppercase;
+				left: 46%;
+				top: 17%;
+				line-height: 60px;
+				font-family: ubuntu;
+				color: white;
+			}
+		}
+	}
+
 } //wrapper
 
 

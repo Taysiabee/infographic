@@ -77,7 +77,7 @@ body {
 .wrapper header p {
   color: #042A2B;
   text-align: center;
-  font-size: 2vw;
+  font-size: 4vw;
   margin-top: 1%;
   line-height: 100%;
   font-family: "ubuntu";
@@ -108,7 +108,7 @@ body {
 .wrapper .party-lines p {
   color: #042A2B;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 4vw;
   margin-top: 3%;
   font-family: "ubuntu";
 }
@@ -165,7 +165,7 @@ body {
   margin-top: 60px;
 }
 .wrapper .america-spends p {
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: center;
   margin-top: 10px;
   font-family: "ubuntu";
@@ -173,7 +173,7 @@ body {
   line-height: 30px;
 }
 .wrapper .america-spends .spending, .wrapper .america-spends .per-person {
-  font-size: 2.5vw;
+  font-size: 3vw;
   color: #042A2B;
   text-transform: uppercase;
   font-weight: bold;
@@ -315,7 +315,7 @@ body {
 }
 .wrapper .most-expensive .expensive {
   color: #042A2B;
-  font-size: 3.5vw;
+  font-size: 4vw;
   font-weight: bold;
   text-transform: uppercase;
   font-family: "ubuntu";
@@ -350,5 +350,109 @@ body {
   font-family: "ubuntu";
   text-align: center;
   font-size: 3vw;
+}
+.wrapper .most-expensive .none {
+  color: #D94728;
+  text-transform: uppercase;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: bold;
+}
+.wrapper .delinquent {
+  position: relative;
+}
+.wrapper .delinquent .meter-img {
+  margin-bottom: 5%;
+}
+.wrapper .delinquent .meter-img .meter-arc {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.wrapper .delinquent .meter-img .pin-meter {
+  width: 6%;
+  position: absolute;
+  left: 47%;
+  top: 5%;
+}
+.wrapper .delinquent span {
+  color: #D94728;
+  margin-left: 44%;
+  font-size: 7vw;
+  font-weight: bold;
+  font-family: "ubuntu";
+}
+.wrapper .delinquent .households {
+  color: #042A2B;
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: ubuntu;
+  text-transform: uppercase;
+  margin-top: 3%;
+}
+.wrapper .delinquent .households span {
+  color: black;
+  font-size: 4vw;
+  margin-left: 5%;
+}
+.wrapper .graph-section {
+  position: relative;
+}
+.wrapper .graph-section .graph-img {
+  width: 65%;
+  display: block;
+  margin: 0 auto;
+}
+.wrapper .graph-section .red-line {
+  width: 40%;
+  position: absolute;
+  bottom: 50%;
+  left: 27%;
+}
+.wrapper .graph-section p {
+  color: #042A2B;
+  text-align: center;
+  font-size: 2vw;
+  font-family: ubuntu;
+}
+.wrapper .graph-section span {
+  color: #D94728;
+  font-size: 5vw;
+  font-family: ubuntu;
+}
+.wrapper .change h2 {
+  color: #042A2B;
+  font-size: 4vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "ubuntu";
+  text-align: center;
+}
+.wrapper .change p {
+  color: #042A2B;
+  text-align: center;
+  font-size: 2vw;
+  font-family: ubuntu;
+  margin-top: 3%;
+}
+.wrapper .change .link {
+  position: relative;
+}
+.wrapper .change .link .bandaid {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.wrapper .change .link span {
+  position: absolute;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  left: 46%;
+  top: 17%;
+  line-height: 60px;
+  font-family: ubuntu;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
