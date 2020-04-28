@@ -173,11 +173,12 @@ body {
   line-height: 30px;
 }
 .wrapper .america-spends .spending, .wrapper .america-spends .per-person {
-  font-size: 3vw;
+  font-size: 4vw;
   color: #042A2B;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 1%;
+  margin-top: 5%;
 }
 .wrapper .america-spends .countries {
   display: flex;
@@ -247,7 +248,7 @@ body {
 }
 .wrapper .three-reasons .three {
   color: #042A2B;
-  font-size: 3.5vw;
+  font-size: 5vw;
   text-transform: uppercase;
   text-align: center;
   font-family: "ubuntu";
@@ -256,7 +257,7 @@ body {
 }
 .wrapper .three-reasons .expensive {
   color: #042A2B;
-  font-size: 2.5vw;
+  font-size: 3vw;
   text-align: center;
   font-family: "ubuntu";
   margin-top: 2%;
@@ -290,7 +291,7 @@ body {
 }
 .wrapper .three-reasons .admin p, .wrapper .three-reasons .admin .gdp, .wrapper .three-reasons .admin .wealthy, .wrapper .three-reasons .admin .average, .wrapper .three-reasons .treatments p, .wrapper .three-reasons .treatments .gdp, .wrapper .three-reasons .treatments .wealthy, .wrapper .three-reasons .treatments .average, .wrapper .three-reasons .top-selling p, .wrapper .three-reasons .top-selling .gdp, .wrapper .three-reasons .top-selling .wealthy, .wrapper .three-reasons .top-selling .average {
   color: #042A2B;
-  font-size: 1.5vw;
+  font-size: 2.2vw;
   margin-top: 1.5%;
   text-align: center;
   font-family: "ubuntu";
@@ -349,12 +350,12 @@ body {
   color: #042A2B;
   font-family: "ubuntu";
   text-align: center;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 .wrapper .most-expensive .none {
   color: #D94728;
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: 3.5vw;
   text-align: center;
   margin-top: 2%;
   font-weight: bold;
@@ -386,14 +387,14 @@ body {
 .wrapper .delinquent .households {
   color: #042A2B;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   font-family: ubuntu;
   text-transform: uppercase;
   margin-top: 3%;
 }
 .wrapper .delinquent .households span {
   color: black;
-  font-size: 4vw;
+  font-size: 5vw;
   margin-left: 5%;
 }
 .wrapper .graph-section {
@@ -403,17 +404,18 @@ body {
   width: 65%;
   display: block;
   margin: 0 auto;
+  margin-bottom: 7%;
 }
 .wrapper .graph-section .red-line {
-  width: 40%;
+  width: 51%;
   position: absolute;
-  bottom: 50%;
+  bottom: 63%;
   left: 27%;
 }
 .wrapper .graph-section p {
   color: #042A2B;
   text-align: center;
-  font-size: 2vw;
+  font-size: 3vw;
   font-family: ubuntu;
 }
 .wrapper .graph-section span {
@@ -423,7 +425,7 @@ body {
 }
 .wrapper .change h2 {
   color: #042A2B;
-  font-size: 4vw;
+  font-size: 5vw;
   font-weight: bold;
   text-transform: uppercase;
   font-family: "ubuntu";
@@ -432,7 +434,7 @@ body {
 .wrapper .change p {
   color: #042A2B;
   text-align: center;
-  font-size: 2vw;
+  font-size: 3vw;
   font-family: ubuntu;
   margin-top: 3%;
 }
@@ -450,9 +452,20 @@ body {
   font-size: 2.5vw;
   text-transform: uppercase;
   left: 46%;
-  top: 17%;
-  line-height: 60px;
+  top: 25%;
+  line-height: 100%;
   font-family: ubuntu;
   color: white;
+}
+
+footer {
+  background-color: #4CA2B1;
+  padding: 5%;
+}
+footer p {
+  color: white;
+  font-size: 2.3vw;
+  font-weight: bold;
+  line-height: 136%;
 }
 /*# sourceMappingURL=main.css.map */
