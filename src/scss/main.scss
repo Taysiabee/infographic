@@ -90,14 +90,31 @@ body {
 
 
 	.the-numbers{
-		position: relative;
-		top: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
 
-		.pills{
-			width: 10%;
+		.pill-row{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			.pills{
+				width: 50%;
+			}
 		}
+
+
+		.pill-row-two{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			.pills{
+				width: 50%;
+			}
+		}
+
 		.clipboard-svg{
-			width: 50%;
+			width: 25%;
 		}
 
 
