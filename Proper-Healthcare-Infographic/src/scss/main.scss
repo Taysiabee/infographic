@@ -94,39 +94,12 @@ body {
 		top: 20px;
 
 		.pills{
-			display: flex;
-			flex-direction: column;
-			position: absolute;
-			left: 34%;
-			top: 10px;
-			.pill-svg-img{
-				width: 2vw;
-				margin-top: 29px;
-			}
+			width: 10%;
 		}
-
 		.clipboard-svg{
-			width: 20%;
-			margin-top: 5%;
-			display: block;
-			margin: 0 auto;
+			width: 50%;
 		}
 
-		.pills-two{
-			display: flex;
-			flex-direction: column;
-			position: absolute;
-			right: 34%;
-			top: 10px;
-			.pill-svg-img{
-				width: 1.9vw;
-				margin-top: 29px;
-			}
-		}
-		
-		.words-on-clipboard{
-			
-		}
 
 	} //end numbers	
 
