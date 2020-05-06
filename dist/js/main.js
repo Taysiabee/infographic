@@ -1,4 +1,6 @@
-"use strict";
-
-console.log("Hello World from main.js! \nChange this message, and make sure it changes in the browser \nto verify that you're working in the right files.");
+var elem = document.querySelector('.pills');
+window.addEventListener('scroll', function () {
+  var value = window.scrollY * 0.25;
+  elem.style.transform = `translatex(-50%) translatey(-50%) rotate(${value}deg)`;
+});
 //# sourceMappingURL=main.js.map
