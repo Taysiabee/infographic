@@ -144,31 +144,23 @@ body {
 .wrapper .the-numbers {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .wrapper .the-numbers .pill-row {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .wrapper .the-numbers .pill-row .pills {
 	width: 50%;
 }
 
-.wrapper .the-numbers .pill-row-two {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
-.wrapper .the-numbers .pill-row-two .pills {
-	width: 50%;
-}
-
 .wrapper .the-numbers .clipboard-svg {
 	width: 25%;
+	margin: 0 5%;
 }
 
 .wrapper .ekg-animation-two .small-ekg-svg {
@@ -373,16 +365,23 @@ body {
 	width: 40%;
 	position: absolute;
 	bottom: 21%;
-	left: 29%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
 }
 
 .wrapper .most-expensive .bottle-stuff .price {
 	position: absolute;
 	color: #D94728;
 	bottom: 31%;
-	left: 43%;
+	left: 50%;
 	font-family: "ubuntu";
 	font-size: 3.5vw;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	text-align: center;
 }
 
 .wrapper .most-expensive .leptin {
@@ -422,7 +421,7 @@ body {
 	top: 5%;
 }
 
-.wrapper .delinquent span {
+.wrapper .delinquent .twenty-percent {
 	color: #D94728;
 	margin-left: 44%;
 	font-size: 7vw;
@@ -437,6 +436,7 @@ body {
 	font-family: ubuntu;
 	text-transform: uppercase;
 	margin-top: 3%;
+	line-height: 1.5em;
 }
 
 .wrapper .delinquent .households span {
