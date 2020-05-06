@@ -181,7 +181,7 @@ body {
 	margin-top: 10px;
 	font-family: 'ubuntu';
 	color: #042A2B;
-	line-height: 30px;
+	line-height: 1.5em;
 }
 
 .wrapper .america-spends .spending, .wrapper .america-spends .per-person {
@@ -296,18 +296,18 @@ body {
 	width: 45%;
 	margin: auto;
 	margin-top: 40px;
+	min-width: 300px;
 }
 
 .wrapper .three-reasons .admin .step, .wrapper .three-reasons .treatments .step, .wrapper .three-reasons .top-selling .step {
 	background: #042A2B;
 	border-radius: 70px;
 	color: #ffffff;
-	display: inline-block;
+	display: block;
 	font-weight: bold;
 	line-height: 3.6em;
 	width: 3.6em;
-	margin-left: 40%;
-	margin-bottom: 3%;
+	margin: 3% auto;
 }
 
 .wrapper .three-reasons .admin .costs, .wrapper .three-reasons .treatments .costs, .wrapper .three-reasons .top-selling .costs {
@@ -316,6 +316,7 @@ body {
 	font-size: 2vw;
 	text-transform: uppercase;
 	font-family: 'ubuntu';
+	line-height: 1em;
 }
 
 .wrapper .three-reasons .admin p, .wrapper .three-reasons .admin .gdp, .wrapper .three-reasons .admin .wealthy, .wrapper .three-reasons .admin .average, .wrapper .three-reasons .treatments p, .wrapper .three-reasons .treatments .gdp, .wrapper .three-reasons .treatments .wealthy, .wrapper .three-reasons .treatments .average, .wrapper .three-reasons .top-selling p, .wrapper .three-reasons .top-selling .gdp, .wrapper .three-reasons .top-selling .wealthy, .wrapper .three-reasons .top-selling .average {
@@ -324,7 +325,7 @@ body {
 	margin-top: 1.5%;
 	text-align: center;
 	font-family: 'ubuntu';
-	line-height: 35px;
+	line-height: 1em;
 }
 
 .wrapper .three-reasons .admin .eight, .wrapper .three-reasons .admin .three, .wrapper .three-reasons .treatments .eight, .wrapper .three-reasons .treatments .three, .wrapper .three-reasons .top-selling .eight, .wrapper .three-reasons .top-selling .three {
