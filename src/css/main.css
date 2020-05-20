@@ -128,14 +128,22 @@ body {
   transform: translateX(1000px);
 }
 .wrapper .the-numbers {
-  position: relative;
-  top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.wrapper .the-numbers .pills {
-  width: 10%;
+.wrapper .the-numbers .pill-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper .the-numbers .pill-row .pills {
+  width: 50%;
 }
 .wrapper .the-numbers .clipboard-svg {
-  width: 50%;
+  width: 25%;
+  margin: 0 5%;
 }
 .wrapper .ekg-animation-two .small-ekg-svg {
   margin-top: 60px;
@@ -146,7 +154,7 @@ body {
   margin-top: 10px;
   font-family: "ubuntu";
   color: #042A2B;
-  line-height: 30px;
+  line-height: 1.5em;
 }
 .wrapper .america-spends .spending, .wrapper .america-spends .per-person {
   font-size: 4vw;
@@ -246,17 +254,17 @@ body {
   width: 45%;
   margin: auto;
   margin-top: 40px;
+  min-width: 300px;
 }
 .wrapper .three-reasons .admin .step, .wrapper .three-reasons .treatments .step, .wrapper .three-reasons .top-selling .step {
   background: #042A2B;
   border-radius: 70px;
   color: #ffffff;
-  display: inline-block;
+  display: block;
   font-weight: bold;
   line-height: 3.6em;
   width: 3.6em;
-  margin-left: 40%;
-  margin-bottom: 3%;
+  margin: 3% auto;
 }
 .wrapper .three-reasons .admin .costs, .wrapper .three-reasons .treatments .costs, .wrapper .three-reasons .top-selling .costs {
   color: #042A2B;
@@ -264,6 +272,7 @@ body {
   font-size: 2vw;
   text-transform: uppercase;
   font-family: "ubuntu";
+  line-height: 1em;
 }
 .wrapper .three-reasons .admin p, .wrapper .three-reasons .admin .gdp, .wrapper .three-reasons .admin .wealthy, .wrapper .three-reasons .admin .average, .wrapper .three-reasons .treatments p, .wrapper .three-reasons .treatments .gdp, .wrapper .three-reasons .treatments .wealthy, .wrapper .three-reasons .treatments .average, .wrapper .three-reasons .top-selling p, .wrapper .three-reasons .top-selling .gdp, .wrapper .three-reasons .top-selling .wealthy, .wrapper .three-reasons .top-selling .average {
   color: #042A2B;
@@ -271,7 +280,7 @@ body {
   margin-top: 1.5%;
   text-align: center;
   font-family: "ubuntu";
-  line-height: 35px;
+  line-height: 1em;
 }
 .wrapper .three-reasons .admin .eight, .wrapper .three-reasons .admin .three, .wrapper .three-reasons .treatments .eight, .wrapper .three-reasons .treatments .three, .wrapper .three-reasons .top-selling .eight, .wrapper .three-reasons .top-selling .three {
   color: #D94728;
@@ -312,15 +321,18 @@ body {
   width: 40%;
   position: absolute;
   bottom: 21%;
-  left: 29%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .wrapper .most-expensive .bottle-stuff .price {
   position: absolute;
   color: #D94728;
   bottom: 31%;
-  left: 43%;
+  left: 50%;
   font-family: "ubuntu";
   font-size: 3.5vw;
+  transform: translateX(-50%);
+  text-align: center;
 }
 .wrapper .most-expensive .leptin {
   color: #042A2B;
@@ -353,7 +365,7 @@ body {
   left: 47%;
   top: 5%;
 }
-.wrapper .delinquent span {
+.wrapper .delinquent .twenty-percent {
   color: #D94728;
   margin-left: 44%;
   font-size: 7vw;
@@ -367,6 +379,7 @@ body {
   font-family: ubuntu;
   text-transform: uppercase;
   margin-top: 3%;
+  line-height: 1.5em;
 }
 .wrapper .delinquent .households span {
   color: black;

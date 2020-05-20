@@ -214,18 +214,10 @@ body {
 			font-family: 'ubuntu';
 			font-weight: bold;
 			margin-top: 3%;
-			@media screen and (min-width: 1200px){
-					position: relative;
-			display: flex;
-			flex-direction: row;
-			padding: 0;
-			background-color:#4CA2B1;
-			padding: 5%;
-			border-radius: 70px;
-			margin-top: 10%;
-			& > div {
-				flex: 1;
-				}
+			// @media
+			// & > div {
+			// 	flex: 1;
+			// 	}
 		}
 		.expensive{
 			color: #042A2B;
