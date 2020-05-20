@@ -173,15 +173,15 @@ body {
 }
 .wrapper .america-spends .countries .money-svg {
   position: absolute;
-  width: 31%;
-  top: 83px;
-  left: -17px;
+  width: 19%;
+  top: 93px;
+  left: 17%;
 }
 .wrapper .america-spends .countries .money-two-svg {
   position: absolute;
-  width: 31%;
-  top: 100px;
-  left: -26px;
+  width: 19%;
+  top: 124px;
+  left: 18%;
 }
 .wrapper .america-spends .countries .uk-svg {
   width: 12%;
@@ -200,21 +200,21 @@ body {
 }
 .wrapper .america-spends .countries .money-five-svg {
   position: absolute;
-  width: 35%;
+  width: 21%;
   top: 63px;
-  right: 16px;
+  right: 25%;
 }
 .wrapper .america-spends .countries .money-six-svg {
   position: absolute;
-  width: 35%;
-  bottom: 64px;
-  right: 6px;
+  width: 20%;
+  bottom: 101px;
+  right: 27%;
 }
 .wrapper .america-spends .countries .money-seven-svg {
   position: absolute;
-  width: 35%;
-  bottom: 47px;
-  right: 9px;
+  width: 21%;
+  bottom: 67px;
+  right: 23%;
 }
 .wrapper .america-spends .countries .money-eight-svg {
   position: absolute;
