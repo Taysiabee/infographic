@@ -193,24 +193,26 @@ body {
 	left: 10px;
 }
 
-.wrapper .america-spends .countries .money-svg {
-	position: absolute;
-	width: 19%;
-	top: 93px;
-	left: 17%;
-}
-
-.wrapper .america-spends .countries .money-two-svg {
-	position: absolute;
-	width: 19%;
-	top: 124px;
-	left: 18%;
-}
-
 .wrapper .america-spends .countries .uk-svg {
 	width: 12%;
 	margin-top: 2%;
 	margin-left: 13%;
+}
+
+.wrapper .america-spends .countries .moneyone {
+	width: 20%;
+	position: absolute;
+	left: 19%;
+	top: 37%;
+	opacity: 0;
+}
+
+.wrapper .america-spends .countries .moneytwo {
+	width: 20%;
+	position: absolute;
+	left: 20%;
+	top: 52%;
+	opacity: 0;
 }
 
 .wrapper .america-spends .countries .times {
@@ -224,38 +226,72 @@ body {
 	top: 15%;
 }
 
-.wrapper .america-spends .countries .money-five-svg {
-	position: absolute;
-	width: 21%;
-	top: 63px;
-	right: 25%;
-}
-
-.wrapper .america-spends .countries .money-six-svg {
-	position: absolute;
-	width: 20%;
-	bottom: 101px;
-	right: 27%;
-}
-
-.wrapper .america-spends .countries .money-seven-svg {
-	position: absolute;
-	width: 21%;
-	bottom: 67px;
-	right: 23%;
-}
-
-.wrapper .america-spends .countries .money-eight-svg {
-	position: absolute;
-	width: 18%;
-	bottom: 38px;
-	right: 28%;
-}
-
 .wrapper .america-spends .countries .us-svg {
 	width: 20%;
 	margin-top: 0%;
 	margin-right: 10%;
+}
+
+.wrapper .america-spends .countries .moneythree {
+	width: 20%;
+	position: absolute;
+	right: 24%;
+	top: 23%;
+	opacity: 0;
+}
+
+.wrapper .america-spends .countries .moneyfour {
+	width: 20%;
+	position: absolute;
+	right: 25%;
+	top: 38%;
+	opacity: 0;
+}
+
+.wrapper .america-spends .countries .moneyfive {
+	width: 20%;
+	position: absolute;
+	right: 22%;
+	top: 53%;
+	opacity: 0;
+}
+
+.wrapper .america-spends .countries .moneysix {
+	width: 20%;
+	position: absolute;
+	right: 25%;
+	top: 67%;
+	opacity: 0;
+}
+
+.wrapper .america-spends .uk-drops1 {
+	-webkit-animation: drop 4s ease forwards;
+	        animation: drop 4s ease forwards;
+}
+
+.wrapper .america-spends .uk-drops2 {
+	-webkit-animation: drop 2s ease forwards;
+	        animation: drop 2s ease forwards;
+}
+
+.wrapper .america-spends .us-drops1 {
+	-webkit-animation: drop 4s ease forwards;
+	        animation: drop 4s ease forwards;
+}
+
+.wrapper .america-spends .us-drops2 {
+	-webkit-animation: drop 2s ease forwards;
+	        animation: drop 2s ease forwards;
+}
+
+.wrapper .america-spends .us-drops3 {
+	-webkit-animation: drop 4s ease forwards;
+	        animation: drop 4s ease forwards;
+}
+
+.wrapper .america-spends .us-drops4 {
+	-webkit-animation: drop 4s ease forwards;
+	        animation: drop 4s ease forwards;
 }
 
 .wrapper .america-spends .despite {
@@ -281,7 +317,16 @@ body {
 	margin-bottom: 5%;
 }
 
-.wrapper .three-reasons .admin, .wrapper .three-reasons .treatments, .wrapper .three-reasons .top-selling {
+@media screen and (min-width: 1200px) {
+	.wrapper .three-reasons .medical-bag {
+		display: flex;
+		background-color: #4CA2B1;
+		padding: 4%;
+		border-radius: 50px;
+	}
+}
+
+.wrapper .three-reasons .medical-bag .admin, .wrapper .three-reasons .medical-bag .treatments, .wrapper .three-reasons .medical-bag .top-selling {
 	background-color: white;
 	padding: 40px;
 	border-radius: 50px;
@@ -289,9 +334,14 @@ body {
 	margin: auto;
 	margin-top: 40px;
 	min-width: 300px;
+	margin-right: 2%;
 }
 
-.wrapper .three-reasons .admin .step, .wrapper .three-reasons .treatments .step, .wrapper .three-reasons .top-selling .step {
+.wrapper .three-reasons .medical-bag .admin .admin, .wrapper .three-reasons .medical-bag .treatments .admin, .wrapper .three-reasons .medical-bag .top-selling .admin {
+	font-weight: bold;
+}
+
+.wrapper .three-reasons .medical-bag .admin .step, .wrapper .three-reasons .medical-bag .treatments .step, .wrapper .three-reasons .medical-bag .top-selling .step {
 	background: #042A2B;
 	border-radius: 70px;
 	color: #ffffff;
@@ -302,7 +352,7 @@ body {
 	margin: 3% auto;
 }
 
-.wrapper .three-reasons .admin .costs, .wrapper .three-reasons .treatments .costs, .wrapper .three-reasons .top-selling .costs {
+.wrapper .three-reasons .medical-bag .admin .costs, .wrapper .three-reasons .medical-bag .treatments .costs, .wrapper .three-reasons .medical-bag .top-selling .costs {
 	color: #042A2B;
 	font-weight: bold;
 	font-size: 2vw;
@@ -311,7 +361,7 @@ body {
 	line-height: 1em;
 }
 
-.wrapper .three-reasons .admin p, .wrapper .three-reasons .admin .gdp, .wrapper .three-reasons .admin .wealthy, .wrapper .three-reasons .admin .average, .wrapper .three-reasons .treatments p, .wrapper .three-reasons .treatments .gdp, .wrapper .three-reasons .treatments .wealthy, .wrapper .three-reasons .treatments .average, .wrapper .three-reasons .top-selling p, .wrapper .three-reasons .top-selling .gdp, .wrapper .three-reasons .top-selling .wealthy, .wrapper .three-reasons .top-selling .average {
+.wrapper .three-reasons .medical-bag .admin p, .wrapper .three-reasons .medical-bag .admin .gdp, .wrapper .three-reasons .medical-bag .admin .wealthy, .wrapper .three-reasons .medical-bag .admin .average, .wrapper .three-reasons .medical-bag .treatments p, .wrapper .three-reasons .medical-bag .treatments .gdp, .wrapper .three-reasons .medical-bag .treatments .wealthy, .wrapper .three-reasons .medical-bag .treatments .average, .wrapper .three-reasons .medical-bag .top-selling p, .wrapper .three-reasons .medical-bag .top-selling .gdp, .wrapper .three-reasons .medical-bag .top-selling .wealthy, .wrapper .three-reasons .medical-bag .top-selling .average {
 	color: #042A2B;
 	font-size: 2.2vw;
 	margin-top: 1.5%;
@@ -320,7 +370,7 @@ body {
 	line-height: 1em;
 }
 
-.wrapper .three-reasons .admin .eight, .wrapper .three-reasons .admin .three, .wrapper .three-reasons .treatments .eight, .wrapper .three-reasons .treatments .three, .wrapper .three-reasons .top-selling .eight, .wrapper .three-reasons .top-selling .three {
+.wrapper .three-reasons .medical-bag .admin .eight, .wrapper .three-reasons .medical-bag .admin .three, .wrapper .three-reasons .medical-bag .treatments .eight, .wrapper .three-reasons .medical-bag .treatments .three, .wrapper .three-reasons .medical-bag .top-selling .eight, .wrapper .three-reasons .medical-bag .top-selling .three {
 	color: #D94728;
 	font-weight: bold;
 	font-size: 5vw;
@@ -328,14 +378,14 @@ body {
 	margin-top: 4%;
 }
 
-.wrapper .three-reasons .admin hr, .wrapper .three-reasons .treatments hr, .wrapper .three-reasons .top-selling hr {
+.wrapper .three-reasons .medical-bag .admin hr, .wrapper .three-reasons .medical-bag .treatments hr, .wrapper .three-reasons .medical-bag .top-selling hr {
 	border: 3px solid #042A2B;
 	border-radius: 5px;
 	width: 20%;
 	margin-top: 10px;
 }
 
-.wrapper .three-reasons .admin .gdp, .wrapper .three-reasons .treatments .gdp, .wrapper .three-reasons .top-selling .gdp {
+.wrapper .three-reasons .medical-bag .admin .gdp, .wrapper .three-reasons .medical-bag .treatments .gdp, .wrapper .three-reasons .medical-bag .top-selling .gdp {
 	line-height: 25px;
 	margin-top: 5%;
 }
@@ -525,6 +575,28 @@ footer p {
 	font-size: 2.3vw;
 	font-weight: bold;
 	line-height: 136%;
+}
+
+@-webkit-keyframes drop {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(20px);
+		        transform: translateY(20px);
+	}
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(20px);
+		        transform: translateY(20px);
+	}
 }
 
 /*# sourceMappingURL=main.css.map */

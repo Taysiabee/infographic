@@ -140,23 +140,24 @@ body {
 			justify-content: space-around;
 			position: relative;
 			left: 10px;
-
-			.money-svg{
-				position: absolute;
-				width: 19%;
-				top: 93px;
-				left: 17%;
-			}
-			.money-two-svg{
-				position: absolute;
-				width: 19%;
-				top: 124px;
-				left: 18%;
-			}
 			.uk-svg{
 				width: 12%;
 				margin-top: 2%;
 				margin-left: 13%;
+			}
+			.moneyone{
+				width: 20%;
+				position: absolute;
+				left: 19%;
+				top: 37%;
+				opacity:0;
+			}
+			.moneytwo{
+				width: 20%;
+				position: absolute;
+				left: 20%;
+				top: 52%;
+				opacity:0;
 			}
 			.times{
 				color: #D94728;
@@ -168,37 +169,61 @@ body {
 				left: 41%;
 				top: 15%;
 			}
-			
-			.money-five-svg{
-				position: absolute;
-				width: 21%;
-				top: 63px;
-				right: 25%;
-			}
-			.money-six-svg{
-				position: absolute;
-				width: 20%;
-				bottom: 101px;
-				right: 27%;			
-			}
-			.money-seven-svg{
-				position: absolute;
-				width: 21%;
-				bottom: 67px;
-				right: 23%;
-			}
-			.money-eight-svg{
-				position: absolute;
-				width: 18%;
-				bottom: 38px;
-				right: 28%;
-			}
 			.us-svg{
 				width: 20%;
 				margin-top: 0%;
 				margin-right: 10%;
 			}
+			.moneythree{
+				width: 20%;
+				position: absolute;
+				right: 24%;
+				top: 23%;
+				opacity: 0;
+			}
+			.moneyfour{
+				width: 20%;
+				position: absolute;
+				right: 25%;
+				top: 38%;
+				opacity: 0;
+			}
+			.moneyfive{
+				width: 20%;
+				position: absolute;
+				right: 22%;
+				top: 53%;
+				opacity: 0;
+			}
+			.moneysix{
+				width: 20%;
+				position: absolute;
+				right: 25%;
+				top: 67%;
+				opacity: 0;
+			}
 		}
+		.uk-drops1{
+			animation: drop 4s ease forwards;
+		}
+
+		.uk-drops2{
+			animation: drop 2s ease forwards;
+		}
+		.us-drops1{
+			animation: drop 4s ease forwards;
+		}
+		.us-drops2{
+			animation: drop 2s ease forwards;
+		}
+		.us-drops3{
+			animation: drop 4s ease forwards;
+		}
+		.us-drops4{
+			animation: drop 4s ease forwards;
+		}
+		
+		
 		
 		.despite{
 			color: #042A2B;
@@ -227,8 +252,15 @@ body {
 			margin-top: 2%;
 			margin-bottom: 5%;
 		}
-
-		.admin, .treatments, .top-selling{
+		.medical-bag{
+			@media screen and (min-width: 1200px) {
+				display: flex;
+				background-color: #4CA2B1;
+				padding: 4%;
+				border-radius: 50px;
+			}
+			
+			.admin, .treatments, .top-selling{
 			background-color: white;
 			padding: 40px;
 			border-radius: 50px;
@@ -236,6 +268,11 @@ body {
 			margin: auto;
 			margin-top: 40px;
 			min-width: 300px;
+			margin-right: 2%;
+
+			.admin{
+				font-weight: bold;
+			}
 			.step{
 				background: #042A2B;
 				border-radius: 70px;
@@ -245,7 +282,6 @@ body {
 				line-height: 3.6em;
 				width: 3.6em;
 				margin: 3% auto	;
-				// margin-bottom: 3%;
 			}
 			.costs{
 				color: #042A2B;
@@ -284,6 +320,9 @@ body {
 		}
 	}
 
+		}
+
+		
 	.most-expensive{
 		.expensive{
 			color: #042A2B;
@@ -454,6 +493,16 @@ footer{
 	}
 }
 
+
+
+
+
+
+
+@keyframes drop{
+	  0%{opacity: 0}
+	  100%{opacity: 1;transform: translateY(20px);}
+}
 
 
 
