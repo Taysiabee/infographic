@@ -317,12 +317,40 @@ body {
 	margin-bottom: 5%;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
 	.wrapper .three-reasons .medical-bag {
 		display: flex;
 		background-color: #4CA2B1;
-		padding: 4%;
+		padding: 5%;
 		border-radius: 50px;
+		position: relative;
+		margin-top: 10%;
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.wrapper .three-reasons .medical-bag .handle {
+		background-color: #4CA2B1;
+		position: absolute;
+		top: -6%;
+		left: 39%;
+		width: 20%;
+		height: 12%;
+		border-radius: 10px;
+		color: #4CA2B1;
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.wrapper .three-reasons .medical-bag .handle .inside-handle {
+		background-color: #E5F4FA;
+		color: red;
+		width: 60%;
+		position: absolute;
+		left: 21%;
+		height: 40%;
+		border-radius: 3px;
+		top: 15%;
 	}
 }
 
@@ -332,9 +360,14 @@ body {
 	border-radius: 50px;
 	width: 45%;
 	margin: auto;
-	margin-top: 40px;
 	min-width: 300px;
-	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+@media screen and (min-width: 1201px) {
+	.wrapper .three-reasons .medical-bag .admin, .wrapper .three-reasons .medical-bag .treatments, .wrapper .three-reasons .medical-bag .top-selling {
+		margin-right: 2%;
+	}
 }
 
 .wrapper .three-reasons .medical-bag .admin .admin, .wrapper .three-reasons .medical-bag .treatments .admin, .wrapper .three-reasons .medical-bag .top-selling .admin {
@@ -415,10 +448,12 @@ body {
 	width: 40%;
 	position: absolute;
 	bottom: 21%;
-	left: 50%;
+	left: 30%;
 	-webkit-transform: translateX(-50%);
 	    -ms-transform: translateX(-50%);
 	        transform: translateX(-50%);
+	-webkit-animation: rubberBand 5s infinite;
+	        animation: rubberBand 5s infinite;
 }
 
 .wrapper .most-expensive .bottle-stuff .price {
@@ -596,6 +631,68 @@ footer p {
 		opacity: 1;
 		-webkit-transform: translateY(20px);
 		        transform: translateY(20px);
+	}
+}
+
+@-webkit-keyframes rubberBand {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		        transform: scale3d(1, 1, 1);
+	}
+	30% {
+		-webkit-transform: scale3d(1.25, 0.75, 1);
+		        transform: scale3d(1.25, 0.75, 1);
+	}
+	40% {
+		-webkit-transform: scale3d(0.75, 1.25, 1);
+		        transform: scale3d(0.75, 1.25, 1);
+	}
+	50% {
+		-webkit-transform: scale3d(1.15, 0.85, 1);
+		        transform: scale3d(1.15, 0.85, 1);
+	}
+	65% {
+		-webkit-transform: scale3d(0.95, 1.05, 1);
+		        transform: scale3d(0.95, 1.05, 1);
+	}
+	75% {
+		-webkit-transform: scale3d(1.05, 0.95, 1);
+		        transform: scale3d(1.05, 0.95, 1);
+	}
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		        transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes rubberBand {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		        transform: scale3d(1, 1, 1);
+	}
+	30% {
+		-webkit-transform: scale3d(1.25, 0.75, 1);
+		        transform: scale3d(1.25, 0.75, 1);
+	}
+	40% {
+		-webkit-transform: scale3d(0.75, 1.25, 1);
+		        transform: scale3d(0.75, 1.25, 1);
+	}
+	50% {
+		-webkit-transform: scale3d(1.15, 0.85, 1);
+		        transform: scale3d(1.15, 0.85, 1);
+	}
+	65% {
+		-webkit-transform: scale3d(0.95, 1.05, 1);
+		        transform: scale3d(0.95, 1.05, 1);
+	}
+	75% {
+		-webkit-transform: scale3d(1.05, 0.95, 1);
+		        transform: scale3d(1.05, 0.95, 1);
+	}
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		        transform: scale3d(1, 1, 1);
 	}
 }
 
